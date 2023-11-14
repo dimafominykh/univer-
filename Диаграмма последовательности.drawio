@@ -1,9 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T14:21:10.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.837 YaBrowser/23.9.4.837 Yowser/2.5 Safari/537.36" version="22.1.0" etag="M8HuOGZIjzxADg6tNtfH" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T14:40:42.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.837 YaBrowser/23.9.4.837 Yowser/2.5 Safari/537.36" etag="9BGrl5TuM9OyQ0u03UsN" version="22.1.0" type="github">
   <diagram name="Страница — 1" id="lcnbrxtdZJ4LXQc_jd3y">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vgEqtioRTdBNw5Qe8ReT-1" value="Пользователь открыл прилдожение" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vgEqtioRTdBNw5Qe8ReT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vgEqtioRTdBNw5Qe8ReT-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgEqtioRTdBNw5Qe8ReT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vgEqtioRTdBNw5Qe8ReT-2" target="vgEqtioRTdBNw5Qe8ReT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vgEqtioRTdBNw5Qe8ReT-2" value="Первый раз в приложении?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vgEqtioRTdBNw5Qe8ReT-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vgEqtioRTdBNw5Qe8ReT-1" target="vgEqtioRTdBNw5Qe8ReT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgEqtioRTdBNw5Qe8ReT-5" value="Пройти регистрацию" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vgEqtioRTdBNw5Qe8ReT-6" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="275" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vgEqtioRTdBNw5Qe8ReT-7" value="Отображение экрана с историей поиска и похожими видео&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vgEqtioRTdBNw5Qe8ReT-9" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
